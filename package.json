@@ -1,0 +1,19 @@
+{
+  "name": "minishop-(modelo)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:record": "cypress run --config video=true",
+    "cy:open": "cypress open",
+    "cy:install": "cypress install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}
